@@ -74,7 +74,7 @@ class _HomePageState extends State<HomePage> {
                         ,width: 40,
                           height: 40,
                         ),
-                        Text('Heavy Rain',
+                        Text(widget.weatherModel.Text,
                           style: TextStyle(
                               fontSize: 20,
                               color: Colors.white,
